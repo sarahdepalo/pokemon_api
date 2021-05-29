@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const pokeTypes = document.createElement('ul');
         fetchTypes(pokeData.types, pokeTypes); //uses a function to append the type to an ul
 
-        const pokeContainer = document.querySelector('#pokeContainer');
+        const pokeContainer = document.querySelector('#allPokeContainer');
         const individualContainers = document.createElement('div');
         individualContainers.classList.add('pokeContainers')
 

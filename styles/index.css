@@ -28,7 +28,7 @@ main {
    
 } 
 
-#pokeContainer {
+#allPokeContainer {
     display: flex;
     flex-wrap: wrap; /* Makes items on multiple lines! */
     justify-content: center; 
