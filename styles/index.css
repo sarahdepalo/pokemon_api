@@ -1,0 +1,50 @@
+html {
+    background-image: url("pokeBackground2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+h1 {
+    color: #fff;
+    text-shadow: 1px 3px 2px blue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Limelight', cursive;
+}
+
+h3 {
+    color: #6993f2;
+    font-size: 23px;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+   
+} 
+
+#pokeContainer {
+    display: flex;
+    flex-wrap: wrap; /* Makes items on multiple lines! */
+    justify-content: center; 
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.pokeContainers {
+    border: 2px black solid;
+    width: 150px;
+    padding: 30px;
+    margin: 20px;
+    max-width: 500px;
+    background-color: #FAF9F6;
+    box-shadow: 0 8px 6px -6px black;
+    
+  
+}
+
